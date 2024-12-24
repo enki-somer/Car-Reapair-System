@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=محلي
+Comment=Local Auto Parts Management System
+Exec=auto-parts-manager
+Icon=/usr/share/icons/mahalli/mahalli.png
+Terminal=false
+Type=Application
+Categories=Office; 

@@ -1,0 +1,15 @@
+# ... existing configuration ...
+    volumeMounts:
+      # ... other mounts ...
+      - name: icons
+        mountPath: /usr/share/icons/mahalli
+      - name: logs
+        mountPath: /app/logs
+  volumes:
+    # ... other volumes ...
+    - name: icons
+      hostPath:
+        path: /usr/share/icons/mahalli
+    - name: logs
+      hostPath:
+        path: /var/log/mahalli 

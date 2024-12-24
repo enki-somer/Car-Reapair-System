@@ -1,0 +1,28 @@
+include README.md
+include LICENSE
+include requirements.txt
+include requirements-dev.txt
+include tests/requirements-test.txt
+include pytest.ini
+
+# Configuration files
+include config/*.ini
+include config/*.yml
+
+# Database
+include database/*.sql
+
+# Desktop and icons
+include auto-parts-manager.desktop
+include icons/*.png
+include icons/*.ico
+
+# Documentation
+include docs/*
+include DEPLOYMENT.md
+
+# Exclude tests from final package
+exclude tests/*
+exclude .pytest_cache/*
+exclude .coverage
+exclude htmlcov/* 

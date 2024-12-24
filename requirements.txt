@@ -1,0 +1,8 @@
+PyQt5>=5.15.0
+SQLAlchemy>=1.4.0
+alembic>=1.7.0
+python-dateutil>=2.8.0
+reportlab>=3.6.0
+pillow>=8.0.0
+pyyaml>=5.4.0
+appdirs>=1.4.4 
